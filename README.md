@@ -8,7 +8,7 @@
 Docker based in Alpine OS with vlmcsd compiled from "source" (Wind4 GitHub)
 
 ## Server Usage:
-> $ docker run -d -p 1688:1688 --restart=always --name vlmcsd mikolatero/vlmcsd
+> $ docker run -d -p 1688:1688 --restart=always --name vlmcsd gh0str1pp3r/vlmcsd
 
 ## Docker Compose
 
