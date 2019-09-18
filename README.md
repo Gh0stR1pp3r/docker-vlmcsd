@@ -55,11 +55,11 @@ Now (thanks to embii74) vlmcsd process send logs to docker
 >cscript ospp.vbs /dstatusall  
 
 ## Sources
-> https://forums.mydigitallife.info/threads/50234-Emulated-KMS-Servers-on-non-Windows-platforms  
+> https://forums.mydigitallife.net/threads/emulated-kms-servers-on-non-windows-platforms.50234/  
 https://github.com/Wind4/vlmcsd
 
 ## GVLK keys
-> Windows: https://technet.microsoft.com/en-us/library/jj612867(v=ws.11).aspx  
+> Windows: https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys
 > Office 2013: https://technet.microsoft.com/en-us/library/dn385360.aspx  
 > Office 2016: https://technet.microsoft.com/en-us/library/dn385360(v=office.16).aspx
 
