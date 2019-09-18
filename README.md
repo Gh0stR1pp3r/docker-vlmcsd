@@ -10,6 +10,24 @@ Docker based in Alpine OS with vlmcsd compiled from "source" (Wind4 GitHub)
 ## Server Usage:
 > $ docker run -d -p 1688:1688 --restart=always --name vlmcsd mikolatero/vlmcsd
 
+## Docker Compose
+
+Compatible with docker-compose v2.1 schemas
+
+```
+version: "2.1"
+services:
+  vlmcsd:
+    image: gh0str1pp3r/vlmcsd
+    container_name: vlmcsd
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - 1688:1688
+    mem_limit: 2048m
+    restart: unless-stopped
+```
+
 ## To view docker log:
 Now (thanks to embii74) vlmcsd process send logs to docker.
 > $ docker logs vlmcsd (change 'vlmcsd' with the docker's name)
